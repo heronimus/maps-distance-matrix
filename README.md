@@ -18,7 +18,7 @@ After execute command above, you will see two generated file named ``` distance_
 
 ## Important Notes
   - CSV format I use here is Microsoft Excel format, using `;` (semicolon) as separator.
-  - Google Maps Distance Matrix API limits your free request up to **2500 request/day**. After reach your limit the distance/duration data inside the matrix will be write as **-1**.  
+  - Google Maps Distance Matrix API limits your free request up to **2500 request/day**. After reach your limit the distance/duration data inside the matrix will be write as **error**.  
   - If you have Google Maps API Key, for now you can add it manually to the code on variable `url`.
 
 ##### :) heronimus (github.com/heronimus)

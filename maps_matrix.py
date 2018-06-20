@@ -77,8 +77,7 @@ if __name__ == '__main__':
 
         #Break at google maps quota 2500 request
         if index>=2500:
-            print("Request has more than 2500 Google Maps request limits.")
-            break
+            print("Warn: Request has more than 2500 Google Maps request limits.")
 
 
     #Write List to CSV file
